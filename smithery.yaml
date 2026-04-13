@@ -1,0 +1,10 @@
+name: code-reviewer-ai-mcp
+description: "MEOK AI Labs — code-reviewer-ai-mcp — Review code for bugs and improvements."
+vendor: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/CSOAI-ORG/code-reviewer-ai-mcp
+license: MIT
+categories: [Developer Tools, Code Quality]
+tags: [code-review, static-analysis, code-quality, linting, best-practices]
+runtime: python
+entrypoint: server.py

@@ -1,0 +1,20 @@
+{
+  "name": "code-reviewer-ai-mcp",
+  "description": "MEOK AI Labs \u2014 code-reviewer-ai-mcp \u2014 Review code for bugs and improvements.",
+  "vendor": "MEOK AI Labs",
+  "homepage": "https://meok.ai",
+  "repository": "https://github.com/CSOAI-ORG/code-reviewer-ai-mcp",
+  "runtime": "python",
+  "entrypoint": "server.py",
+  "tools": [
+    "run"
+  ],
+  "categories": [
+    "Developer Tools",
+    "Code Quality"
+  ],
+  "pricing": {
+    "free": "50 calls/day",
+    "pro": "$9/mo"
+  }
+}

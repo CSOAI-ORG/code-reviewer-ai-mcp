@@ -1,10 +1,34 @@
 name: code-reviewer-ai-mcp
-description: "MEOK AI Labs — code-reviewer-ai-mcp — Review code for bugs and improvements."
-vendor: MEOK AI Labs
-homepage: https://meok.ai
-repository: https://github.com/CSOAI-ORG/code-reviewer-ai-mcp
-license: MIT
-categories: [Developer Tools, Code Quality]
-tags: [code-review, static-analysis, code-quality, linting, best-practices]
-runtime: python
-entrypoint: server.py
+description: "code-reviewer-ai-mcp \u2014 Review code for bugs and improvements."
+version: 1.0.0
+tools:
+- name: review_code
+  description: Review code for bugs, security issues, and improvements. Returns categorized
+    findings.
+  parameters:
+  - name: code
+    type: string
+    required: true
+  - name: language
+    type: string
+    required: false
+- name: check_security
+  description: Scan code for OWASP Top 10 vulnerabilities, hardcoded secrets, injection
+    risks.
+  parameters:
+  - name: code
+    type: string
+    required: true
+- name: suggest_improvements
+  description: Suggest refactoring opportunities, performance improvements, and best
+    practices.
+  parameters:
+  - name: code
+    type: string
+    required: true
+- name: check_complexity
+  description: Calculate cyclomatic complexity and identify overly complex functions.
+  parameters:
+  - name: code
+    type: string
+    required: true

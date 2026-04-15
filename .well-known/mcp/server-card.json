@@ -1,0 +1,58 @@
+{
+  "name": "code-reviewer-ai",
+  "description": "MEOK AI Labs \u2014 Code review with issue detection, security scanning, and improvement suggestions.",
+  "version": "1.0.0",
+  "protocol_version": "2025-11-25",
+  "publisher": {
+    "name": "MEOK AI Labs",
+    "url": "https://meok.ai",
+    "email": "nicholas@meok.ai"
+  },
+  "repository": "https://github.com/CSOAI-ORG/code-reviewer-ai-mcp",
+  "license": "MIT",
+  "transport": [
+    "stdio",
+    "streamable-http"
+  ],
+  "authentication": {
+    "type": "api-key",
+    "free_tier": true,
+    "free_limit": "15 calls/day"
+  },
+  "tools": [
+    {
+      "name": "review_code",
+      "description": "Comprehensive code review: security, style, complexity, and quality metrics."
+    },
+    {
+      "name": "check_style",
+      "description": "Check code style against language conventions and best practices."
+    },
+    {
+      "name": "find_bugs",
+      "description": "Detect common bug patterns: null references, off-by-one errors, resource leaks, type issues."
+    },
+    {
+      "name": "suggest_improvements",
+      "description": "Suggest refactoring opportunities, performance improvements, and best practices."
+    },
+    {
+      "name": "security_scan",
+      "description": "Deep security scan for OWASP Top 10, hardcoded secrets, injection risks, and CWE references."
+    }
+  ],
+  "categories": [
+    "AI & Machine Learning",
+    "Developer Tools",
+    "Security & Compliance"
+  ],
+  "pricing": {
+    "free": {
+      "calls_per_day": 15
+    },
+    "pro": {
+      "price": "$29/month",
+      "url": "https://meok.ai/pricing"
+    }
+  }
+}

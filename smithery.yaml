@@ -1,5 +1,6 @@
 name: code-reviewer-ai-mcp
-description: "code-reviewer-ai-mcp \u2014 Review code for bugs and improvements."
+description: "MEOK AI Labs \u2014 Code review with issue detection, security scanning,\
+  \ and improvement suggestions."
 version: 1.0.0
 tools:
 - name: review_code

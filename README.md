@@ -1,50 +1,38 @@
-# Code Reviewer AI MCP Server
+<div align="center">
 
-> By [MEOK AI Labs](https://meok.ai) — Code review with issue detection, security scanning, and improvement suggestions
+[![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/code-reviewer-ai-mcp)](https://github.com/CSOAI-ORG/code-reviewer-ai-mcp/stargazers)
+
+# ucodeU reviewerU aiU mcp
+
+****
+
+[![npm version](https://img.shields.io/npm/v/@meok-ai/code-reviewer-ai-mcp)](https://www.npmjs.com/package/@meok-ai/code-reviewer-ai-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-255+_servers-purple)](https://meok.ai)
+
+[Installation](#installation) · [Docs](https://csoai.org) · [Report Bug](https://github.com/CSOAI-ORG/code-reviewer-ai-mcp/issues)
+
+</div>
+
+---
 
 ## Installation
 
 ```bash
 pip install code-reviewer-ai-mcp
+# or
+npm install -g @meok-ai/code-reviewer-ai-mcp
 ```
 
-## Usage
+## Quick Start
 
-```bash
-python server.py
-```
+See the project repository for full documentation and examples.
 
-## Tools
+## Enterprise Support
 
-### `review_code`
-Review code for bugs, security issues, and improvements. Returns categorized findings.
-
-**Parameters:**
-- `code` (str): Code to review
-- `language` (str): Programming language (default 'python')
-
-### `check_security`
-Scan code for OWASP Top 10 vulnerabilities, hardcoded secrets, and injection risks.
-
-**Parameters:**
-- `code` (str): Code to scan
-
-### `suggest_improvements`
-Suggest refactoring opportunities, performance improvements, and best practices.
-
-**Parameters:**
-- `code` (str): Code to analyze
-
-### `check_complexity`
-Calculate cyclomatic complexity and identify overly complex functions.
-
-**Parameters:**
-- `code` (str): Code to analyze
-
-## Authentication
-
-Free tier: 30 calls/day. Upgrade at [meok.ai/pricing](https://meok.ai/pricing) for unlimited access.
+- 📧 nicholas@csoai.org
+- 🌐 [CSOAI.org](https://csoai.org)
 
 ## License
 
-MIT — MEOK AI Labs
+MIT © [CSOAI](https://csoai.org)

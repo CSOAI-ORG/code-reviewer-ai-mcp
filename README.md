@@ -1,3 +1,5 @@
+[![code-reviewer-ai-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/code-reviewer-ai-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/code-reviewer-ai-mcp)
+
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/code-reviewer-ai-mcp)](https://github.com/CSOAI-ORG/code-reviewer-ai-mcp/stargazers)

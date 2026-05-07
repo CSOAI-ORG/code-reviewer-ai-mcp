@@ -114,7 +114,23 @@ def _calculate_complexity(code: str, language: str) -> dict:
 
 @mcp.tool()
 def review_code(code: str, language: str = "python", api_key: str = "") -> str:
-    """Comprehensive code review: security, style, complexity, and quality metrics."""
+    """Comprehensive code review: security, style, complexity, and quality metrics.
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}
@@ -156,7 +172,23 @@ def review_code(code: str, language: str = "python", api_key: str = "") -> str:
 
 @mcp.tool()
 def check_style(code: str, language: str = "python", api_key: str = "") -> str:
-    """Check code style against language conventions and best practices."""
+    """Check code style against language conventions and best practices.
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}
@@ -197,7 +229,23 @@ def check_style(code: str, language: str = "python", api_key: str = "") -> str:
 
 @mcp.tool()
 def find_bugs(code: str, language: str = "python", api_key: str = "") -> str:
-    """Detect common bug patterns: null references, off-by-one errors, resource leaks, type issues."""
+    """Detect common bug patterns: null references, off-by-one errors, resource leaks, type issues.
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}
@@ -241,7 +289,23 @@ def find_bugs(code: str, language: str = "python", api_key: str = "") -> str:
 
 @mcp.tool()
 def suggest_improvements(code: str, language: str = "python", api_key: str = "") -> str:
-    """Suggest refactoring opportunities, performance improvements, and best practices."""
+    """Suggest refactoring opportunities, performance improvements, and best practices.
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}
@@ -300,7 +364,23 @@ def suggest_improvements(code: str, language: str = "python", api_key: str = "")
 
 @mcp.tool()
 def security_scan(code: str, language: str = "python", api_key: str = "") -> str:
-    """Deep security scan for OWASP Top 10, hardcoded secrets, injection risks, and CWE references."""
+    """Deep security scan for OWASP Top 10, hardcoded secrets, injection risks, and CWE references.
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}

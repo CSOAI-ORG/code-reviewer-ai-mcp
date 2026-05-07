@@ -130,6 +130,12 @@ def review_code(code: str, language: str = "python", api_key: str = "") -> str:
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        code (str): The code to analyze or process.
+        language (str): The language to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -202,6 +208,12 @@ def check_style(code: str, language: str = "python", api_key: str = "") -> str:
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        code (str): The code to analyze or process.
+        language (str): The language to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -273,6 +285,12 @@ def find_bugs(code: str, language: str = "python", api_key: str = "") -> str:
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        code (str): The code to analyze or process.
+        language (str): The language to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -347,6 +365,12 @@ def suggest_improvements(code: str, language: str = "python", api_key: str = "")
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        code (str): The code to analyze or process.
+        language (str): The language to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -436,6 +460,12 @@ def security_scan(code: str, language: str = "python", api_key: str = "") -> str
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        code (str): The code to analyze or process.
+        language (str): The language to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned

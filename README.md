@@ -1,45 +1,59 @@
-[![code-reviewer-ai-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/code-reviewer-ai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/code-reviewer-ai-mcp)
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-Published-green)](https://registry.modelcontextprotocol.io)
-[![PyPI](https://img.shields.io/pypi/v/code-reviewer-ai-mcp)](https://pypi.org/project/code-reviewer-ai-mcp/)
-
-[![code-reviewer-ai-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/code-reviewer-ai-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/code-reviewer-ai-mcp)
-
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/code-reviewer-ai-mcp)](https://github.com/CSOAI-ORG/code-reviewer-ai-mcp/stargazers)
+# Code Reviewer Ai MCP
 
-# ucodeU reviewerU aiU mcp
+**MCP server for code reviewer ai mcp operations**
 
-****
-
-[![npm version](https://img.shields.io/npm/v/@meok-ai/code-reviewer-ai-mcp)](https://www.npmjs.com/package/@meok-ai/code-reviewer-ai-mcp)
+[![PyPI](https://img.shields.io/pypi/v/meok-code-reviewer-ai-mcp)](https://pypi.org/project/meok-code-reviewer-ai-mcp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-255+_servers-purple)](https://meok.ai)
-
-[Installation](#installation) · [Docs](https://csoai.org) · [Report Bug](https://github.com/CSOAI-ORG/code-reviewer-ai-mcp/issues)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-MCP_Server-purple)](https://meok.ai)
 
 </div>
 
----
+## Overview
+
+Code Reviewer Ai MCP provides AI-powered tools via the Model Context Protocol (MCP).
+
+## Tools
+
+| Tool | Description |
+|------|-------------|
+| `review_code` | Comprehensive code review: security, style, complexity, and quality metrics. |
+| `check_style` | Check code style against language conventions and best practices. |
+| `find_bugs` | Detect common bug patterns: null references, off-by-one errors, resource leaks,  |
+| `suggest_improvements` | Suggest refactoring opportunities, performance improvements, and best practices. |
+| `security_scan` | Deep security scan for OWASP Top 10, hardcoded secrets, injection risks, and CWE |
 
 ## Installation
 
 ```bash
-pip install code-reviewer-ai-mcp
-# or
-npm install -g @meok-ai/code-reviewer-ai-mcp
+pip install meok-code-reviewer-ai-mcp
 ```
 
-## Quick Start
+## Usage with Claude Desktop
 
-See the project repository for full documentation and examples.
+Add to your Claude Desktop MCP config (`claude_desktop_config.json`):
 
-## Enterprise Support
+```json
+{
+  "mcpServers": {
+    "code-reviewer-ai": {
+      "command": "python",
+      "args": ["-m", "meok_code_reviewer_ai_mcp.server"]
+    }
+  }
+}
+```
 
-- 📧 nicholas@csoai.org
-- 🌐 [CSOAI.org](https://csoai.org)
+## Usage with FastMCP
+
+```python
+from mcp.server.fastmcp import FastMCP
+
+# This server exposes 5 tool(s) via MCP
+# See server.py for full implementation
+```
 
 ## License
 
-MIT © [CSOAI](https://csoai.org)
-<!-- mcp-name: io.github.CSOAI-ORG/code-reviewer-ai-mcp -->
+MIT © [MEOK AI Labs](https://meok.ai)

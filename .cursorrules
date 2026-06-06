@@ -1,0 +1,9 @@
+# code-reviewer-ai-mcp - Auto-trigger Rules
+
+When the user asks about code reviewer, use code-reviewer-ai-mcp tools: review_code, check_style, find_bugs, suggest_improvements, security_scan
+
+**MCP server for code reviewer ai mcp operations**
+
+Install: `pip install code-reviewer-ai-mcp`
+
+By MEOK AI Labs — MIT licensed.

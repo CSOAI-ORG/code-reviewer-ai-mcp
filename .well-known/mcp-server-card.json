@@ -1,0 +1,28 @@
+{
+  "name": "code-reviewer-ai-mcp",
+  "title": "Code Reviewer Ai Mcp",
+  "description": "Code Reviewer Ai MCP server. Tools: review code, check security, suggest improvements. Built by MEOK AI Labs.",
+  "version": "1.0.7",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "review_code"
+    },
+    {
+      "name": "check_style"
+    },
+    {
+      "name": "find_bugs"
+    },
+    {
+      "name": "suggest_improvements"
+    },
+    {
+      "name": "security_scan"
+    }
+  ]
+}

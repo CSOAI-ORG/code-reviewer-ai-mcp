@@ -1,0 +1,10 @@
+{
+  "name": "Code Reviewer",
+  "description": "AI-powered code review with security, compliance, and quality checks",
+  "vendor": "MEOK AI Labs",
+  "sourceUrl": "https://github.com/CSOAI-ORG/code-reviewer-ai-mcp",
+  "homepage": "https://meok.ai/mcp/code-reviewer-ai-mcp",
+  "license": "MIT",
+  "runtime": "python",
+  "entryPoint": "server.py"
+}

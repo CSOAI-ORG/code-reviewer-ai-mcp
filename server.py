@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Code review with issue detection, security scanning, and improvement suggestions. — MEOK AI Labs."""
+"""
+Code review with issue detection, security scanning, and improvement suggestions. — MEOK AI Labs."""
 
 import sys, os
 from auth_middleware import check_access

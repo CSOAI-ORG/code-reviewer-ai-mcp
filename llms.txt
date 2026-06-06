@@ -1,0 +1,36 @@
+# code-reviewer-ai-mcp
+# **MCP server for code reviewer ai mcp operations**
+
+## Install
+```bash
+pip install code-reviewer-ai-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label.
+
+## Tools
+
+### `review_code`
+Comprehensive code review: security, style, complexity, and quality metrics.
+
+### `check_style`
+Check code style against language conventions and best practices.
+
+### `find_bugs`
+Detect common bug patterns: null references, off-by-one errors, resource leaks, type issues.
+
+### `suggest_improvements`
+Suggest refactoring opportunities, performance improvements, and best practices.
+
+### `security_scan`
+Deep security scan for OWASP Top 10, hardcoded secrets, injection risks, and CWE references.
+
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT licensed
+
+## Pairs with
+Governance moat: pair this tool with any of MEOK's 38 governance MCPs (EU AI Act, DORA, NIS2, CRA, GDPR, ISO 42001, etc.) for full compliance coverage.

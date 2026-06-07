@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "code-reviewer-ai-mcp",
+    "description": "Code Reviewer Ai MCP Server by MEOK AI Labs",
+    "version": "1.0.7",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "code-reviewer-ai-mcp"
+      }
+    ],
+    "capabilities": [
+      "review_code",
+      "check_style",
+      "find_bugs",
+      "suggest_improvements",
+      "security_scan"
+    ]
+  }
+}

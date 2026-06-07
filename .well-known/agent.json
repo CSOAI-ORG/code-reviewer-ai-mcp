@@ -1,0 +1,68 @@
+{
+  "name": "code-reviewer-ai-mcp",
+  "description": "Code Reviewer Ai MCP Server by MEOK AI Labs",
+  "url": "https://proofof.ai/scorecard/code-reviewer-ai-mcp.html",
+  "version": "1.0.7",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "review_code",
+      "name": "Review Code",
+      "description": "review_code via code-reviewer-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_style",
+      "name": "Check Style",
+      "description": "check_style via code-reviewer-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "find_bugs",
+      "name": "Find Bugs",
+      "description": "find_bugs via code-reviewer-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "suggest_improvements",
+      "name": "Suggest Improvements",
+      "description": "suggest_improvements via code-reviewer-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "security_scan",
+      "name": "Security Scan",
+      "description": "security_scan via code-reviewer-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

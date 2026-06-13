@@ -4,9 +4,8 @@
   "version": "1.0.10",
   "description": "Code Reviewer Ai MCP Server by MEOK AI Labs",
   "repository": {
-    "type": "git",
     "url": "https://github.com/CSOAI-ORG/code-reviewer-ai-mcp",
-    "source": "https://github.com/CSOAI-ORG/code-reviewer-ai-mcp"
+    "source": "github"
   },
   "packages": [
     {

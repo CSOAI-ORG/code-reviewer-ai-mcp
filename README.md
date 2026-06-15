@@ -1,4 +1,4 @@
-<!-- mcp-name: CSOAI-ORG/code-reviewer-ai-mcp -->
+<!-- mcp-name: io.github.CSOAI-ORG/code-reviewer-ai-mcp -->
 [![MCP Scorecard: 86/100](https://img.shields.io/badge/proofof.ai-86%2F100-5b21b6)](https://proofof.ai/scorecard/code-reviewer-ai-mcp.html)
 
 # Code Reviewer Ai MCP
@@ -138,3 +138,8 @@ Once configured, ask your assistant, for example:
 - "Use `review_code` to …"
 - "Use `check_style` to …"
 - "Use `find_bugs` to …"
+
+## See also
+
+MEOK compliance MCP fleet:
+[`code-executor-mcp`](https://github.com/CSOAI-ORG/code-executor-mcp)
